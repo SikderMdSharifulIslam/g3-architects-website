@@ -260,6 +260,21 @@ header{
 }
 /* sponsor end */
 
+/* footer start */
+.footer{
+    background-color: #FFF4E7;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 216px;
+}
+.footer p{
+    color: #424242;
+    font-size: 1.25rem;
+    padding: 39px;
+}
+/* footer end */
+
 
 /* Responsive Media Query */
 @media screen and (max-width: 576px) {
