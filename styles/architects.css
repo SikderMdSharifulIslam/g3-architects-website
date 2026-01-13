@@ -135,7 +135,27 @@ header{
 .features{
     margin-top: 130px;
     margin-bottom: 130px;
+    gap: 120px;
+    align-items: start;
 }
+.feature-part-1, .feature-part-2{
+    flex: 1;
+}
+.feature-part-2 img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.feature-part-2 {
+    flex: 0 0 55%;
+    position: relative;}
+
+.btn-experience {
+    position: absolute;
+    bottom: -77px;
+    left: -60px;
+}
+
 #feature-section-title{
     border-left:5px solid #FF900E;
     padding-left: 20px;
@@ -144,10 +164,7 @@ header{
     color: #131313;
     margin-bottom: 24px;
 }
-.btn-experience{
-    margin-left: -92px;
-    margin-top: -77px;
-}
+
 #ten-year{
     font-size: 4rem;
     font-weight: 700;
@@ -159,8 +176,8 @@ header{
     line-height: 40px;
 }
 .feature-part-1{
-    margin-right: 146px;
-    margin-top: 54px;
+    flex: 0 0 45%;
+    margin: 38px 0;
 }
 .feature-card{
     margin-top: 30px;
@@ -207,7 +224,7 @@ header{
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 124px;
+    gap: 35px;
     margin-left: 25px;
     margin-right: 25px;
     margin-bottom: 180px;
@@ -256,8 +273,8 @@ header{
         line-height: 0;
     }
     .btn-experience{
-        margin-left: -30px;
-        margin-top: -40px;
+        left: -30px;
+        bottom: -40px;
         padding: 15px;
     }
     .card-container{
@@ -268,6 +285,9 @@ header{
     }
     .fact{
         margin-top: 50px;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
     }
 }
 /* medium size device */
@@ -300,8 +320,8 @@ header{
         line-height: 0;
     }
     .btn-experience{
-        margin-left: -30px;
-        margin-top: -40px;
+        left: -30px;
+        bottom: -40px;
         padding: 15px;
     }
     .card-container{
@@ -312,6 +332,9 @@ header{
     }
     .fact{
         margin-top: 50px;
+    }
+    .team-img-container{
+        grid-template-columns: 1fr;
     }
 
 }
