@@ -227,7 +227,7 @@ header{
     gap: 35px;
     margin-left: 25px;
     margin-right: 25px;
-    margin-bottom: 180px;
+    margin-bottom: 130px;
 }
 .card{
     border: 1px solid #FF900E;
@@ -236,6 +236,29 @@ header{
 }
 
 /* some fact end */
+
+/* sponsor start */
+.sponsors{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.sponsors h3{
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsors p{
+    margin-bottom: 50px;
+}
+
+.sponsors div{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    filter: grayscale();
+    margin-top: 50px;
+}
+/* sponsor end */
 
 
 /* Responsive Media Query */
@@ -289,6 +312,9 @@ header{
     .team-img-container{
         grid-template-columns: 1fr;
     }
+    .fact{
+        margin-top: 30px;
+    }
 }
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px){
@@ -335,6 +361,9 @@ header{
     }
     .team-img-container{
         grid-template-columns: 1fr;
+    }
+    .fact{
+        margin-top: 30px;
     }
 
 }
